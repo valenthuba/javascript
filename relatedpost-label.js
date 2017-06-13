@@ -90,12 +90,12 @@ function labelthumbs(t) {
 		C = y.substring(8, 10);
 		1 == showpostthumbnails2 && document.write('<a title="' + i + '" href="' + m + '"><div class="mastamvan_thumb2"><img width="' + thumb_width2 + '" height="' + thumb_height2 + '" title="' + i + '" alt="' + i + '" src="' + j + '"/></div></a>'),
 		document.write("<li>"),
-		document.write('<span class="mastamvan_title mastamvan_title2"><a title="' + i + '" href="' + m + '" target ="_blank">' + i + "</a></span>");
+		document.write('<span class="mastamvan_title mastamvan_title2"><a title="' + i + '" href="' + m + '">' + i + "</a></span>");
 		var R = "";
 		document.write('<span class="mastamvan_meta mastamvan_meta2">'),
 		1 == showpostdate2 && (R = R + '<span class="mastamvan_meta_date mastamvan_meta_date2">' + C + "/" + $ + "/" + x + "</span>"),
 		1 == showcommentnum2 && ("1 Comments" == l && (l = "1 Comment"), "0 Comments" == l && (l = "No Comments"), showcomment = '<span class="mastamvan_meta_comment mastamvan_meta_comment2"><a title="' + i + '" href="' + o + '">' + l + "</a></span>", R += showcomment),
-		1 == displaymore2 && (R = R + '<span class="mastamvan_meta_more mastamvan_meta_more2"><a title="' + i + '" href="' + m + '" class="url" target ="_top">Read More...</a></span>'),
+		1 == displaymore2 && (R = R + '<span class="mastamvan_meta_more mastamvan_meta_more2"><a title="' + i + '" href="' + m + '" class="url">Read More</a></span>'),
 		document.write(R),
 		document.write("</span>"),
 		document.write("</li>")
