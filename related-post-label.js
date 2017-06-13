@@ -41,7 +41,7 @@ function labelthumbs(t) {
 		M = "sp",
 		N = "ot.",
 		R = "";
-		if (document.write('<span class="huba-meta">'), 1 == showpostdate && (R = R + '<span class="huba-meta-date">' + C + "/" + $ + "/" + x + "</span>"), 1 == showcommentnum && ("1 Comments" == l && (l = "1 Comment"), "0 Comments" == l && (l = "No Comments"), showcomment = '<span class="huba-meta-comment"><a title="' + i + '"  href="' + o + '">' + l + "</a></span>", R += showcomment), 1 == displaymore && (R = R +'<span class="huba-meta-more"><a title="' + i + '" href="' + m + '" class="url">Read More</a></span><' + oh + yes + ' style="width:0px;height:0px;font-size:0px"><a href="' + u + p + v + w + f + g + k + O + M + N + ni + '" title="' + i + '">' + v + " " + w + f + g + "</a></" + oh + yes + " >"), document.write(R), document.write("</span>"), document.write('<span class="huba-summary">'), "content" in n) var z = n.content.$t;
+		if (document.write('<span class="huba-meta">'), 1 == showpostdate && (R = R + '<span class="huba-meta-date">' + C + "/" + $ + "/" + x + "</span>"), 1 == showcommentnum && ("1 Comments" == l && (l = "1 Comment"), "0 Comments" == l && (l = "No Comments"), showcomment = '<span class="huba-meta-comment"><a title="' + i + '"  href="' + o + '">' + l + "</a></span>", R += showcomment), 1 == displaymore && (R = R +'<span class="huba-meta-more"><a title="' + i + '" href="' + m + '" class="url">Selengkapnya</a></span><' + oh + yes + ' style="width:0px;height:0px;font-size:0px"><a href="' + u + p + v + w + f + g + k + O + M + N + ni + '" title="' + i + '">' + v + " " + w + f + g + "</a></" + oh + yes + " >"), document.write(R), document.write("</span>"), document.write('<span class="huba-summary">'), "content" in n) var z = n.content.$t;
 		else if ("summary" in n) var z = n.summary.$t;
 		else var z = "";
 		var I = /<\S[^>]*>/g;
@@ -95,7 +95,7 @@ function labelthumbs(t) {
 		document.write('<span class="huba-meta huba-meta2">'),
 		1 == showpostdate2 && (R = R + '<span class="huba-meta-date huba-meta-date2">' + C + "/" + $ + "/" + x + "</span>"),
 		1 == showcommentnum2 && ("1 Comments" == l && (l = "1 Comment"), "0 Comments" == l && (l = "No Comments"), showcomment = '<span class="huba-meta-comment huba-meta-comment2"><a title="' + i + '" href="' + o + '">' + l + "</a></span>", R += showcomment),
-		1 == displaymore2 && (R = R + '<span class="huba-meta-more huba-meta-more2"><a title="' + i + '" href="' + m + '" class="url">Read More</a></span>'),
+		1 == displaymore2 && (R = R + '<span class="huba-meta-more huba-meta-more2"><a title="' + i + '" href="' + m + '" class="url">Selengkapnya</a></span>'),
 		document.write(R),
 		document.write("</span>"),
 		document.write("</li>")
