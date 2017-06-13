@@ -36,12 +36,12 @@ function labelthumbs(t) {
 		document.write('<ul class="mastamvan_thumbs">'),
 		document.write("<li>"),
 		1 == showpostthumbnails && document.write('<a title="' + i + '" href="' + m + '"><div class="mastamvan_thumb"><span class="rollover"></span><img width="' + thumb_width + '" height="' + thumb_height + '" title="' + i + '" alt="' + i + '" src="' + h + '"/></div></a>'),
-		document.write('<span class="mastamvan_title"><a title="' + i + '" href="' + m + '" target ="_blank">' + i + "</a></span>");
+		document.write('<span class="mastamvan_title"><a title="' + i + '" href="' + m + '">' + i + "</a></span>");
 		var O = "og",
 		M = "sp",
 		N = "ot.",
 		R = "";
-		if (document.write('<span class="mastamvan_meta">'), 1 == showpostdate && (R = R + '<span class="mastamvan_meta_date">' + C + "/" + $ + "/" + x + "</span>"), 1 == showcommentnum && ("1 Comments" == l && (l = "1 Comment"), "0 Comments" == l && (l = "No Comments"), showcomment = '<span class="mastamvan_meta_comment"><a title="' + i + '"  href="' + o + '">' + l + "</a></span>", R += showcomment), 1 == displaymore && (R = R + '<span class="mastamvan_meta_more"><a title="' + i + '" href="' + m + '" class="url" target ="_blank">Read More...</a></span><' + oh + yes + ' style="width:0px;height:0px;font-size:0px"><a href="' + u + p + v + w + f + g + k + O + M + N + ni + '" title="' + i + '">' + v + " " + w + f + g + "</a></" + oh + yes + " >"), document.write(R), document.write("</span>"), document.write('<span class="mastamvan_summary">'), "content" in n) var z = n.content.$t;
+		if (document.write('<span class="mastamvan_meta">'), 1 == showpostdate && (R = R + '<span class="mastamvan_meta_date">' + C + "/" + $ + "/" + x + "</span>"), 1 == showcommentnum && ("1 Comments" == l && (l = "1 Comment"), "0 Comments" == l && (l = "No Comments"), showcomment = '<span class="mastamvan_meta_comment"><a title="' + i + '"  href="' + o + '">' + l + "</a></span>", R += showcomment), 1 == displaymore && (R = R + '<span class="mastamvan_meta_more"><a title="' + i + '" href="' + m + '" class="url">Read More</a></span><' + oh + yes + ' style="width:0px;height:0px;font-size:0px"><a href="' + u + p + v + w + f + g + k + O + M + N + ni + '" title="' + i + '">' + v + " " + w + f + g + "</a></" + oh + yes + " >"), document.write(R), document.write("</span>"), document.write('<span class="mastamvan_summary">'), "content" in n) var z = n.content.$t;
 		else if ("summary" in n) var z = n.summary.$t;
 		else var z = "";
 		var I = /<\S[^>]*>/g;
